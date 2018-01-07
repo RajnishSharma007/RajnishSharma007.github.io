@@ -1,0 +1,193 @@
+/* Medium desktop :992px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+    
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.profile-desc {
+  padding-left: 0;
+}    
+.profile-desc > p {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+} 
+.profile-about ul li {
+  margin-bottom: 10px;
+}    
+    
+    
+    
+    
+
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.navbar-toggle {
+  float: none;
+  margin: 0;
+  padding: 9px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.navbar-header .navbar-toggle .icon-bar {
+  background: #000 none repeat scroll 0 0;
+}    
+.main-menu ul.navbar-nav li {
+  padding: 0 7px;
+} 
+.profile-desc {
+  padding-left: 0;
+}    
+.profile-about ul li {
+  font-size: 15px;
+}    
+.portfolio-grid figure {
+  width: 50%;
+}    
+.profile-desc h2 {
+  margin-bottom: 2px;
+}    
+.profile-desc > p {
+  line-height: 22px;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}  
+.profile-about ul li {
+  margin-bottom: 12px;
+}    
+.cv-btn > a {
+  padding: 8px 24px;
+}    
+   
+    
+
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width: 100%;}
+    
+
+.navbar-toggle {
+  margin-right: 0;
+  margin-top: -40px;
+  padding: 9px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.navbar-header .navbar-toggle .icon-bar {
+  background: #999 none repeat scroll 0 0;
+}   
+.main-menu ul.navbar-nav {
+  float: left;
+}
+.main-menu ul.navbar-nav li a {
+  padding: 12px 0;
+}    
+.welcome-text h1 {
+  font-size: 40px;
+}
+.welcome-text{
+  margin-top: 30px;
+}
+.welcome-text h4 {
+  font-size: 22px;
+} 
+.resume-area {
+  padding: 50px 0;
+}    
+    
+.single-resume-item .timeline-marker {
+  left: 10px;
+}    
+.resume-left-item, .resume-right-item {
+  width: 100%;
+}    
+.single-resume-item.single-resume-item.single-resume-item .resume-left-item {
+  float: left;
+  padding-left: 30px;
+  padding-right: 0;
+  text-align: left;
+}    
+.resume-left-item > p {
+  margin-bottom: 5px;
+} 
+.hire-area {
+  height: 180px;
+  padding: 50px 0;
+}
+.hire-inner.text-center > h2 {
+  font-size: 23px;
+  margin-bottom: 15px;
+} 
+
+.profile-desc {
+  padding-left: 0;
+  margin-top: 30px;
+}   
+.profile-about ul li:nth-child(2n) {
+  width: 100%;
+}    
+.portfolio-menu button {
+  margin-bottom: 10px;
+}    
+.portfolio-grid figure {
+  width: 100%;
+}    
+.section-title > h2 {
+  font-size: 32px;
+  margin-bottom: 35px;
+}    
+.copyright p {
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}    
+.text-right {
+  text-align: center;
+}    
+.about-area {
+  padding: 50px 0;
+}  
+.service-area {
+  padding: 50px 0 30px;
+}    
+.portfolio-area {
+  padding: 50px 0;
+}    
+.testimonel-area {
+  padding: 50px 0;
+}    
+.contact-area {
+  padding: 50px 0;
+}    
+.contact-info h4 {
+  margin-bottom: 20px;
+}    
+.footer-top {
+  padding: 50px 0 30px 0;
+}   
+    
+    
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px} 
+
+ .porfile-photo > img {
+  width: 100%;
+}   
+    
+
+ 
+}
+
+
+
+
+
+ 

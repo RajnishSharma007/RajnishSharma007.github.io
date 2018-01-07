@@ -1,0 +1,731 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Version: 1.0
+    
+    CSS INDEX
+    ===================
+    01. Theme default CSS
+    02. header-area css hear
+    03. main-menu css hear
+    04. slider-area css hear
+    05. about-area css hear	
+    06. service-area css hear 
+    07. resume-area css hear
+    08. hire-area css hear 
+    09. Portfolio-area css hear 
+    10. testimonel-area css hear
+    11. contact-are css hear
+    12. footer-area css hear
+
+
+
+ # Theme Default CSS (body, link color, section etc)
+-----------------------------------------------------------------------------------*/
+/*========= google fonts =========*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700');
+
+/*--
+  01.  Theme default CSS
+----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1,
+h2, 
+h3, 
+h4, 
+h5,
+h6 {
+  margin: 0 0 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+  list-style: outside none none;
+  margin: 0;
+  padding: 0
+}
+.clear{clear:both}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+
+/*--
+  02. header-area css hear
+------------------------------------------*/
+
+.header-area {
+  position: absolute;
+  width: 100%;
+  z-index: 9
+}
+.stick-header.stick {
+  background: #333 none repeat scroll 0 0;
+  position: fixed;
+}
+.logo > a {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 6px;
+  padding: 10px 0;
+  text-decoration: none;
+}
+.logo a span {
+  color: #2eca7f;
+}
+
+/*--
+  03. main-menu css hear
+--------------------------------------*/
+
+.main-menu ul.navbar-nav {
+  float: right;
+}
+.main-menu .navbar-collapse {
+  padding-right: 0;
+}
+.main-menu ul.navbar-nav li {
+  padding: 0px 10px;
+}
+.main-menu ul.navbar-nav li:last-child {
+  padding-right: 0px;
+}
+.main-menu ul.navbar-nav li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding: 20px 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+.main-menu ul.navbar-nav li a:hover {
+  color: #2eca7f;
+}
+.main-menu ul.navbar-nav li.active a:hover {
+  color: #2eca7f;
+}
+.main-menu ul.navbar-nav li a:focus,.nav li a:hover {
+  background: none;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.main-menu ul.navbar-nav li.active a {
+  color: #2ECA7F;
+}
+/*--
+  04. slider-area css hear
+---------------------------------------*/
+.slider-area {
+  position: relative;
+  height: 100vh;
+  height: 100%;
+}
+.slider-single {
+  height: 100%;
+  background: no-repeat center center / cover;
+  background-attachment: fixed;
+}
+.overlye-bg{
+    position: relative;
+}
+.overlye-bg::before {
+  background: rgba(0, 0, 0, 0.6);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.d-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.welcome-text > h3 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.welcome-text h1 {
+  color: #2eca7f;
+  font-size: 74px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.welcome-text h4 {
+  color: #fff;
+  font-size: 30px;
+}
+#particles-js {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/*--
+  05. about-area css hear
+-----------------------------------*/
+.about-area {
+  padding: 70px 0;
+}
+.porfile-photo {
+    position: relative;
+    /*height: 250px;*/
+}
+.porfile-overly {
+    background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.porfile-photo > img {
+  border-radius: 5px;
+}
+.social-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.about-area .social-icon li {
+    display: inline-block;
+}
+.about-area .social-icon li a {
+  display: block;
+  font-size: 20px;
+  height: 20px;
+  width: 32px;
+  color: #fff;
+}
+.about-area .social-icon li a:hover {
+  color: #2ECA7F;
+}
+.porfile-photo:hover .porfile-overly {
+  border-radius: 5px;
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+.profile-about ul {
+  display: table;
+}
+.profile-about ul li {
+  color: #999;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 22px;
+  white-space: nowrap;
+}
+.profile-about li a {
+  color: #7e7e7e;
+}
+.profile-desc h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.profile-desc > p {
+  border-bottom: 1px dashed #999;
+  padding-bottom: 15px;
+}
+.profile-desc {
+  padding-left: 30px;
+}
+.profile-about ul li:nth-child(2n+1) {
+  float: left;
+  width: 40%;
+}
+.profile-about ul li:nth-child(2n) {
+  float: left;
+  width: 60%;
+}
+.profile-about span {
+  color: #333;
+}
+.cv-btn > a {
+  background: #2eca7f none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 24px;
+}
+
+/*--
+  06. service-area css hear
+-------------------------*/
+.service-area {
+  background: #f1f1f1 none repeat scroll 0 0;
+  padding: 70px 0 40px;
+}
+.section-title > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.service-icon {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 110px;
+  width: 110px;
+  line-height: 110px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.single-service:hover .service-icon  {
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-7px);
+}
+.single-service {
+  margin-bottom: 30px;
+}
+.service-info h3 {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* --
+ 07. resume-area css hear 
+---------------------------------- */
+
+.resume-area {
+  padding: 70px 0;
+}
+.resume-area .single-resume-item {
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.single-resume-item {
+  position: relative;
+}
+.single-resume-item .timeline-marker {
+  left: 50%;
+  margin-left: -7.5px;
+  position: absolute;
+}
+.resume-left-item > h2 {
+  font-weight: 600;
+  margin-bottom: 2px;
+  line-height: 24px;
+}
+.resume-left-item > p {
+  color: #999999;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.resume-right-item > h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+.resume-right-item > p {
+  margin-bottom: 0;
+}
+.timeline-marker::after {
+  background: #ccd5db none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 4px;
+  position: absolute;
+  top: 24px;
+  width: 2px;
+}
+.timeline-marker::before {
+  background: #2eca7f none repeat scroll 0 0;
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  transition: background 0.3s ease-in-out 0s, border 0.3s ease-in-out 0s;
+  width: 10px;
+}
+.timeline-marker {
+    position: absolute;
+    top: 0; bottom: 0; left: 0;
+    width: 15px;
+    &:before {
+        background: $primary-color;
+        border: 3px solid transparent;
+        border-radius: 100%;
+        content: "";
+        display: block;
+        height: 15px;
+        position: absolute;
+        top: 4px; left: 0;
+        width: 15px;
+        transition: background 0.3s ease-in-out,
+        border 0.3s ease-in-out;
+    }
+    &:after {
+        content: "";
+        width: 3px;
+        background: #CCD5DB;
+        display: block;
+        position: absolute;
+        top: 24px; bottom: 0; left: 6px;
+    }
+}
+.resume-left-item, .resume-right-item {
+  width: 50%;
+}
+.single-resume-item.single-resume-item.single-resume-item .resume-left-item {
+  float: left;
+  padding-right: 30px;
+  text-align: right;
+}
+.single-resume-item.single-resume-item.single-resume-item .resume-right-item {
+  float: right;
+  padding-left: 30px;
+  text-align: left;
+}
+/* --
+ 08. hire-area css hear 
+---------------------------------- */
+.hire-area {
+  background: rgba(0, 0, 0, 0) url("img/slider/hire.jpg") repeat fixed center bottom;
+  height: 300px;
+  padding: 100px 0;
+}
+.hire-inner.text-center > h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.hire-inner .btn {
+  background: #2eca7f none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
+/* --
+ 09. Portfolio-area css hear 
+---------------------------------- */
+.portfolio-area {
+  padding: 70px 0;
+}
+.portfolio-menu {
+  margin-bottom: 25px;
+}
+.portfolio-menu button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  color: #333;
+  font-family: "Rajdhani",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 3px 12px;
+  position: relative;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.portfolio-menu button:focus{
+ outline: none;
+}
+.portfolio-menu button.active {
+  background: #2eca7f;
+  border: 1px solid #2eca7f ;
+  color: #fff ;
+}
+.portfolio-grid figure {
+  width: 33.33333%;
+  float: left;
+  padding: 3px;
+}
+.portfolio-grid img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.portfolio-grid figure {
+  float: left;
+  position: relative;
+  padding: 10px;
+}
+
+.portfolio-grid figure a,
+.portfolio-rid figure a img {
+  display: block;
+  position: relative;
+}
+
+.portfolio-grid figure a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.portfolio-grid figure a div {
+  top: 0px;
+  left: -100%;
+  padding: 5px 20px;
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-grid figure a div:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2eca7f;
+  opacity: 0.8;
+  z-index: 0;
+}
+.portfolio-grid figure a:hover div {
+  left: 0px;
+}
+.portfolio-grid figure a div h5 {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin: 10px 0;
+  position: relative;
+  z-index: 1;
+}
+.portfolio-grid figure a div i {
+  color: #fff;
+  position: absolute;
+  font-size: 18px;
+  bottom: 14px;
+  right: 20px;
+  margin: 0;
+}
+.portfolio-grid figure a div span {
+  display: block;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: rgba(255,255,255,0.9);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+
+/*-
+    10. testimonel-area css hear
+-------------------------------------*/
+.testimonel-area {
+  background: #f1f1f1 none repeat scroll 0 0;
+  padding: 70px 0;
+}
+.testimonel-img {
+  border-radius: 50%;
+  margin: 12px auto;
+  overflow: hidden;
+  width: 110px;
+}
+.testimonel-item h3 {
+  margin-bottom: 4px;
+}
+.testimonel-item h4 {
+  position: relative;
+  padding-bottom: 15px;
+}
+.testimonel-item h4::after {
+  background-color: #000;
+  bottom: 5px;
+  height: 1px;
+  width: 100px;
+}
+.testimonel-item h4::before {
+  border-color: #000;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 4px;
+  padding: 0 0 1px;
+  width: 44px;
+}
+.review-reating {
+  color: #f1c30d;
+  margin-bottom: 12px;
+}
+.testimonel-item > p {
+  font-style: italic;
+  padding: 0 20px;
+  position: relative;
+}
+.testimonel-item > p::after {
+    content: "";
+    font-family: fontawesome;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.testimonel-carousel .owl-dots {
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.testimonel-carousel .owl-dot {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #2ECA7F;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 3px;
+  width: 10px;
+}
+.testimonel-carousel .owl-dot.active {
+  background: #2ECA7F none repeat scroll 0 0;
+  border-radius: 10px;
+  padding: 4px 12px;
+}
+/*--
+  11. contact-are css hear
+------------------------------------*/
+.contact-area {
+  padding: 70px 0;
+}
+.contact-from .form-group input  {
+  box-shadow: none;
+  height: 42px;
+  padding: 0 10px;
+}
+.contact-from .form-group textarea{
+  box-shadow: none;
+}
+.contact-from .form-control:focus {
+  border-color: #2ECA7F;
+}
+.contact-from .form-group {
+  margin-bottom: 20px;
+}
+.contact-from .btn-success {
+  background-color: #2eca7f;
+  border-color: #2eca7f;
+  color: #fff;
+}
+.contact-from .btn-success:hover {
+  background-color: #2eca7f;
+  border-color: #2eca7f;
+  color: #fff;
+}
+
+/*--
+  12. footer-area css hear
+-------------------------------------*/
+.footer-top {
+  background: #444;
+  padding: 50px 0;
+}
+.contact-info i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 45px;
+  transition: 0.4s ease 0s;
+}
+.contact-info:hover  i{
+  background: #2eca7f;
+  border: 1px solid #2eca7f;
+}
+.contact-info h4 {
+  color: #fff;
+}
+.footer-bottom {
+  background: #333 none repeat scroll 0 0;
+  padding: 20px 0;
+}
+.copyright p {
+  color: #fff;
+  margin: 0;
+}
+.copyright p a {
+  color: #2eca7f;
+}
+.social-link a {
+  color: #fff;
+  display: inline-block;
+  margin-right: 11px;
+}
+.social-link a:hover {
+  color: #2ECA7F;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
