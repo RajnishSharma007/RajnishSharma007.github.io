@@ -69,6 +69,16 @@ body {
   line-height: 24px;
 }
 
+.subheading {
+  font-size: 0.9em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  letter-spacing: 0px;
+  /*text-align: right;*/
+  margin-top: -12px;
+  margin-left: 33px;
+  width: 200px;
+}
 
 /*--
   02. header-area css hear
